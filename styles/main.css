@@ -1,0 +1,1609 @@
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+/* Links */
+a, a:link, a:visited {
+  /* color: inherit; */
+  text-decoration: none;
+  /* display: inline-block; */
+}
+
+a:hover {
+  /* color: inherit; */
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("./fonts/Roboto/Roboto-Light.ttf");
+}
+.centering {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  width: 1440px;
+  height: 700px;
+  background: #000000;
+}
+header .container {
+  width: 1440px;
+  height: 700px;
+  background-image: url(../images/header-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+header .container .firstContainer {
+  width: 1440px;
+  height: 76px;
+  display: flex;
+}
+header .container .firstContainer h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  align-items: flex-end;
+  margin: 46px 0 0 248px;
+}
+header .container .firstContainer button {
+  width: 90px;
+  height: 36px;
+  background-color: none;
+  border-radius: 40px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+header .container .firstContainer .login {
+  margin: 40px 0 0 577px;
+}
+header .container .firstContainer .signup {
+  border: 2px solid #FFFFFF;
+  margin: 40px 0 0 -9px;
+}
+header .container .secondContainer {
+  width: 1440px;
+  height: 100%;
+}
+header .container .secondContainer h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+  color: #FFFFFF;
+  width: 470px;
+  height: 126px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  margin: 147px 0 0 485px;
+}
+header .container .secondContainer p {
+  font-family: "Roboto-Light";
+  font-weight: 0;
+  font-size: 24px;
+  line-height: 24.5px;
+  color: #FFFFFF;
+  width: 396px;
+  height: 25px;
+  align-items: center;
+  margin: 28.5px 0 0 522px;
+}
+header .container .secondContainer button {
+  width: 225px;
+  height: 40px;
+  background-color: #FF4E50;
+  border-radius: 40px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin: 33px 0 0 608px;
+}
+
+main {
+  width: 1440px;
+  height: 2402px;
+}
+main h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  color: #444444;
+  width: 343px;
+  height: 32px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  margin: 89px 0 0 549px;
+}
+main .firstBox {
+  width: 1440px;
+  padding: 35px 250.5px 0 249.5px;
+  display: flex;
+  justify-content: space-between;
+}
+main .firstBox button {
+  width: 72px;
+  height: 20px;
+  background-color: #FF4E50;
+  border-radius: 40px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FFFFFF;
+  letter-spacing: 1.5px;
+  margin-top: 219px;
+}
+main .firstBox h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #FFFFFF;
+  width: 250px;
+  letter-spacing: 0.6px;
+  margin-top: 22px;
+}
+main .firstBox p {
+  font-family: "Roboto-Light";
+  font-weight: 0;
+  font-size: 14px;
+  line-height: 14px;
+  color: #E3E3E3;
+  margin-top: 24px;
+}
+main .firstBox-image1, main .firstBox-image3, main .firstBox-image2 {
+  width: 300px;
+  height: 400px;
+  background-image: url(../images/main-image1.png);
+  border-radius: 4px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+main .firstBox-image2 {
+  background-image: url(../images/main-image2.png);
+}
+main .firstBox-image2 button {
+  margin-top: 250px;
+}
+main .firstBox-image2 h2 {
+  margin-top: 23px;
+}
+main .firstBox-image2 p {
+  margin-top: 18px;
+}
+main .firstBox-image3 {
+  background-image: url(../images/main-image3.png);
+}
+main .firstBox .image-fon {
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+  border-radius: 4px;
+  padding: 0 25px;
+}
+main .titleParther {
+  width: 492px;
+  letter-spacing: 0.7px;
+  margin: 89px 0 0 475px;
+}
+main .secondBox {
+  width: 1440px;
+}
+main .secondBox-container {
+  width: 1440px;
+  padding: 35px 249px 0 250px;
+  display: flex;
+  justify-content: space-between;
+}
+main .secondBox-container-profile {
+  width: 221px;
+  height: 224px;
+  position: relative;
+}
+main .secondBox-container-profile-container {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  position: relative;
+}
+main .secondBox-container .image1 {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/main-avatar1.png);
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}
+main .secondBox-container .image1-icons {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background: #FF4E50;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 8px;
+  outline-color: white;
+  outline-style: solid;
+  outline-width: 4px;
+}
+main .secondBox-container .image1-icons img {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+main .secondBox-container .image2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+  background-image: url(../images/main-avatar2.png);
+}
+main .secondBox-container .image2-icons {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background: #19D4CA;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 8px;
+  outline-color: white;
+  outline-style: solid;
+  outline-width: 4px;
+}
+main .secondBox-container .image3 {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+  background-image: url(../images/main-avatar3.png);
+}
+main .secondBox-container .image3-icons {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background: #FFA710;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 8px;
+  outline-color: white;
+  outline-style: solid;
+  outline-width: 4px;
+}
+main .secondBox-container .image4 {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+  background-image: url(../images/main-avatar4.png);
+}
+main .secondBox-container .image4-icons {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background: #667DF3;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 8px;
+  outline-color: white;
+  outline-style: solid;
+  outline-width: 4px;
+}
+main .secondBox-container h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+  width: 221px;
+  height: 18;
+  letter-spacing: 0.6px;
+  margin-top: 18px;
+  text-align: center;
+}
+main .secondBox-container p {
+  font-family: "Roboto-Light";
+  font-weight: 0;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+  width: 221px;
+  height: 54;
+  margin-top: 22px;
+  text-align: center;
+}
+main .secondBox-container .p3 {
+  margin-top: 26px;
+  padding: 0 0 0 2;
+}
+main .secondBox-container .p4 {
+  margin-top: 26px;
+}
+main .secondBox button {
+  margin: 36px 0 0 631px;
+  width: 180px;
+  height: 40px;
+  background-color: none;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FF4E50;
+  border: 3px solid #FF4E50;
+}
+main .titleThird {
+  width: 420px;
+  letter-spacing: 0.8px;
+  margin: 89px 0 0 511px;
+}
+main .thirdBox {
+  width: 1440px;
+  padding-top: 15px;
+}
+main .thirdBox-container {
+  width: 1440px;
+  padding: 20px 250px 0 250px;
+  display: flex;
+  justify-content: space-between;
+}
+main .thirdBox-container-image1 {
+  width: 300px;
+  height: 310px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/main-holiday1.png);
+}
+main .thirdBox-container-image1-fonS {
+  width: 300px;
+  height: 310px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+  padding: 142px 0 0 31px;
+}
+main .thirdBox-container-image2 {
+  width: 300px;
+  height: 310px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/main-holiday2.png);
+}
+main .thirdBox-container-image2-fonS {
+  width: 300px;
+  height: 310px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+  padding: 142px 0 0 31px;
+}
+main .thirdBox-container-image3 {
+  width: 300px;
+  height: 310px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/main-holiday3.png);
+}
+main .thirdBox-container-image3-fonS {
+  width: 300px;
+  height: 310px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+  padding: 128px 0 0 57px;
+}
+main .thirdBox-container-image4 {
+  width: 300px;
+  height: 310px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/main-holiday4.png);
+}
+main .thirdBox-container-image4-fonS {
+  width: 300px;
+  height: 310px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+  padding: 142px 0 0 31px;
+}
+main .thirdBox-container-image5 {
+  width: 620px;
+  height: 310px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/main-holiday5.png);
+}
+main .thirdBox-container-image5-fonL {
+  width: 620px;
+  height: 310px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+  padding: 142px 0 0 171px;
+}
+main .thirdBox-container-image6 {
+  width: 620px;
+  height: 310px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/main-holiday6.png);
+}
+main .thirdBox-container-image6-fonL {
+  width: 620px;
+  height: 310px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+  padding: 142px 0 0 171px;
+}
+main .thirdBox-container-image7 {
+  width: 300px;
+  height: 310px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/main-holiday7.png);
+}
+main .thirdBox-container-image7-fonS {
+  width: 300px;
+  height: 310px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+  padding: 142px 0 0 31px;
+}
+main .thirdBox-container .boxS {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+  width: 238px;
+  height: 27;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+main .thirdBox-container .boxL {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+  width: 279px;
+  height: 27;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+main .thirdBox-container .boxS3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+  width: 187px;
+  height: 54;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+main .titleSearch {
+  width: 357px;
+  margin: 89px 0 0 541.5px;
+}
+main .lastBox {
+  width: 1440px;
+  height: 133px;
+  padding: 48px 481px 0 478px;
+}
+main .lastBox h2 {
+  font-family: "Roboto-Light";
+  font-weight: 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: #666666;
+  width: 415px;
+  height: 24;
+  margin-left: 35px;
+  text-align: center;
+}
+main .lastBox form {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+main .lastBox form .search {
+  width: 299px;
+  height: 40px;
+  border: 1px solid #D4D4D4;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+  border-radius: 3px;
+  font-family: "Roboto-Light";
+  font-weight: 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: #999999;
+  padding-left: 14px;
+}
+main .lastBox form .searchButton {
+  width: 172px;
+  height: 40px;
+  background-color: #FF4E50;
+  border-radius: 40px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+footer {
+  width: 1440px;
+  height: 224px;
+  border-top: 2px solid #FF4E50;
+}
+footer nav {
+  width: 1440px;
+  display: flex;
+  padding: 36px 250px 0 249px;
+}
+footer nav .colums {
+  width: 200px;
+}
+footer nav .colums-footerLogo {
+  width: 110px;
+  height: 24px;
+  margin-top: 6px;
+  background-image: url(../images/footer-logo.png);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+footer nav .colums2 {
+  margin: 3px 0 0 41px;
+}
+footer nav .colums3 {
+  margin: 3px 0 0 39px;
+}
+footer nav .colums4 {
+  width: 110px;
+  margin: 3px 0 0 151px;
+}
+footer nav h1 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FF4E50;
+  width: 119px;
+  height: 20;
+}
+footer nav h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+  width: 70px;
+  height: 17;
+  margin-bottom: 12px;
+}
+footer nav h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #CCCCCC;
+  width: 83px;
+  height: 12;
+  letter-spacing: 1px;
+  margin-left: 31px;
+}
+footer nav p {
+  font-family: "Roboto-Light";
+  font-weight: 0;
+  font-size: 14px;
+  line-height: 26px;
+  color: #999999;
+  width: 114px;
+  height: 26;
+}
+
+@media screen and (max-width: 1466px) {
+  .centering {
+    width: 768px;
+  }
+  header {
+    width: 768px;
+  }
+  header .container {
+    width: 768px;
+  }
+  header .container .firstContainer {
+    width: 768px;
+  }
+  header .container .firstContainer h1 {
+    margin: 46px 0 0 48px;
+  }
+  header .container .firstContainer .login {
+    margin: 40px 0 0 346px;
+  }
+  header .container .secondContainer {
+    width: 768px;
+  }
+  header .container .secondContainer h1 {
+    margin: 147px 0 0 149px;
+  }
+  header .container .secondContainer p {
+    margin: 28.5px 0 0 186px;
+  }
+  header .container .secondContainer button {
+    margin: 33px 0 0 272px;
+  }
+  main {
+    width: 768px;
+    height: 2641px;
+  }
+  main h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #444444;
+    width: 343px;
+    height: 27px;
+    letter-spacing: 0.5px;
+    margin: 94px 0 0 212px;
+  }
+  main .firstBox {
+    width: 768px;
+    padding: 35px 10px 0 10px;
+  }
+  main .firstBox button {
+    width: 70px;
+    height: 20px;
+    background-color: #FF4E50;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 205px;
+  }
+  main .firstBox h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width: 196px;
+    margin-top: 46px;
+  }
+  main .firstBox p {
+    font-family: "Roboto-Light";
+    font-weight: 0;
+    font-size: 14px;
+    line-height: 14px;
+    color: #E3E3E3;
+    margin-top: 30px;
+  }
+  main .firstBox-image1, main .firstBox-image2, main .firstBox-image3 {
+    width: 236px;
+    height: 400px;
+    background-image: url(../images/main-image1-m.png);
+  }
+  main .firstBox-image2 {
+    background-image: url(../images/main-image2-m.png);
+  }
+  main .firstBox-image2 button {
+    margin-top: 255px;
+  }
+  main .firstBox-image2 h2 {
+    margin-top: 16px;
+  }
+  main .firstBox-image2 p {
+    margin-top: 24px;
+  }
+  main .firstBox-image3 {
+    background-image: url(../images/main-image3-m.png);
+  }
+  main .firstBox .image-fon {
+    width: 236px;
+    padding: 0 20px;
+  }
+  main .titleParther {
+    width: 420px;
+    margin: 94px 0 0 175px;
+  }
+  main .secondBox {
+    width: 768px;
+  }
+  main .secondBox-container {
+    width: 768px;
+    height: 538px;
+    padding: 35px 119px 20px 138px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  main .secondBox-container-profile {
+    width: 236px;
+  }
+  main .secondBox-container h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    width: 236px;
+    margin: 19px 0 0 1px;
+  }
+  main .secondBox-container p {
+    font-family: "Roboto-Light";
+    font-weight: 0;
+    font-size: 14px;
+    line-height: 14px;
+    color: #444444;
+    width: 236px;
+    height: 54;
+  }
+  main .secondBox-container .p3 {
+    margin-top: 26px;
+    padding: 2px 0 0 0;
+  }
+  main .secondBox-container .p4 {
+    margin-top: 23px;
+  }
+  main .secondBox button {
+    margin: 1px 0 0 294px;
+  }
+  main .titleThird {
+    width: 353px;
+    letter-spacing: 0.8px;
+    margin: 94px 0 0 209px;
+  }
+  main .thirdBox {
+    width: 768px;
+    padding-top: 15px;
+  }
+  main .thirdBox-container {
+    width: 768px;
+    padding: 20px 10px 0 10px;
+  }
+  main .thirdBox-container-image1 {
+    width: 236px;
+    height: 310px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday1-m.png);
+  }
+  main .thirdBox-container-image1-fonS {
+    width: 236px;
+    height: 310px;
+    border-radius: 4px;
+    padding: 115px 0 0 15px;
+  }
+  main .thirdBox-container-image2 {
+    width: 236px;
+    height: 310px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday2-m.png);
+  }
+  main .thirdBox-container-image2-fonS {
+    width: 236px;
+    height: 310px;
+    border-radius: 4px;
+    padding: 128px 0 0 15px;
+  }
+  main .thirdBox-container-image3 {
+    width: 236px;
+    height: 310px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday3-m.png);
+  }
+  main .thirdBox-container-image3-fonS {
+    width: 236x;
+    height: 310px;
+    border-radius: 4px;
+    padding: 128px 0 0 15px;
+  }
+  main .thirdBox-container-image4 {
+    width: 236px;
+    height: 310px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday4-m.png);
+  }
+  main .thirdBox-container-image4-fonS {
+    width: 236px;
+    height: 310px;
+    border-radius: 4px;
+    padding: 142px 0 0 15px;
+  }
+  main .thirdBox-container-image5 {
+    width: 492px;
+    height: 310px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday5-m.png);
+  }
+  main .thirdBox-container-image5-fonL {
+    width: 492px;
+    height: 310px;
+    border-radius: 4px;
+    padding: 142px 0 0 108px;
+  }
+  main .thirdBox-container-image6 {
+    width: 492px;
+    height: 310px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday6-m.png);
+  }
+  main .thirdBox-container-image6-fonL {
+    width: 492px;
+    height: 310px;
+    border-radius: 4px;
+    padding: 142px 0 0 108px;
+  }
+  main .thirdBox-container-image7 {
+    width: 236px;
+    height: 310px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday7-m.png);
+  }
+  main .thirdBox-container-image7-fonS {
+    width: 236px;
+    height: 310px;
+    border-radius: 4px;
+    padding: 142px 0 0 15px;
+  }
+  main .thirdBox-container .boxS {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 206px;
+    height: 54;
+  }
+  main .thirdBox-container .boxL {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 279px;
+    height: 27;
+  }
+  main .thirdBox-container .boxS3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 206px;
+    height: 54;
+  }
+  main .titleSearch {
+    width: 310px;
+    margin: 94px 0 0 231px;
+    letter-spacing: 0.8px;
+  }
+  main .lastBox {
+    width: 768px;
+    padding: 48px 144px 0 143px;
+  }
+  main .lastBox h2 {
+    font-family: "Roboto-Light";
+    font-weight: 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: #666666;
+  }
+  footer {
+    width: 768px;
+  }
+  footer nav {
+    width: 768px;
+    padding: 37px 39px 0 39px;
+  }
+  footer nav .colums {
+    width: 130px;
+  }
+  footer nav .colums-footerLogo {
+    width: 110px;
+    height: 24px;
+    margin-top: 6px;
+    background-image: url(../images/footer-logo.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  footer nav .colums2 {
+    margin: 3px 0 0 97px;
+  }
+  footer nav .colums3 {
+    margin: 3px 0 0 40px;
+  }
+  footer nav .colums4 {
+    width: 110px;
+    margin: 3px 0 0 52px;
+  }
+  footer nav h2 {
+    margin-bottom: 11px;
+  }
+}
+@media screen and (max-width: 784px) {
+  .centering {
+    width: 320px;
+  }
+  header {
+    width: 320px;
+    height: 540px;
+  }
+  header .container {
+    width: 320px;
+    height: 540px;
+  }
+  header .container .firstContainer {
+    width: 320px;
+    height: 177px;
+    flex-direction: column-reverse;
+  }
+  header .container .firstContainer-title {
+    width: 320px;
+  }
+  header .container .firstContainer-button {
+    width: 320pxpx;
+  }
+  header .container .firstContainer h1 {
+    width: 152px;
+    margin: 97px 0 0 86px;
+  }
+  header .container .firstContainer .login {
+    margin: 0 0 0 60px;
+  }
+  header .container .firstContainer .signup {
+    border: 2px solid #FFFFFF;
+    margin: 0px 0 0 -7px;
+  }
+  header .container .secondContainer {
+    width: 320px;
+  }
+  header .container .secondContainer h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    width: 272px;
+    height: 74px;
+    letter-spacing: 0.5px;
+    margin: 26px 0 0 24px;
+  }
+  header .container .secondContainer p {
+    font-family: "Roboto-Light";
+    font-weight: 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 280px;
+    height: 49px;
+    text-align: center;
+    margin: 5.5px 0 0 20px;
+  }
+  header .container .secondContainer button {
+    width: 280px;
+    height: 40px;
+    background-color: #FF4E50;
+    border-radius: 40px;
+    text-align: center;
+    margin: 15px 0 0 21px;
+  }
+  main {
+    width: 320px;
+    height: 3138px;
+  }
+  main h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #444444;
+    width: 289px;
+    height: 27px;
+    letter-spacing: 0.5px;
+    margin: 34px 0 0 16px;
+  }
+  main .firstBox {
+    width: 320px;
+    padding: 15px 10px 0 10px;
+    display: block;
+  }
+  main .firstBox button {
+    width: 70px;
+    height: 20px;
+    background-color: #FF4E50;
+    border-radius: 40px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 64px;
+  }
+  main .firstBox h2 {
+    width: 250px;
+  }
+  main .firstBox p {
+    font-family: "Roboto-Light";
+    font-weight: 0;
+    font-size: 14px;
+    line-height: 14px;
+    color: #E3E3E3;
+    margin-top: 24px;
+  }
+  main .firstBox-image1, main .firstBox-image2, main .firstBox-image3 {
+    width: 300px;
+    height: 240px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-image: url(../images/main-image1-s.png);
+  }
+  main .firstBox-image2 {
+    background-image: url(../images/main-image2-s.png);
+  }
+  main .firstBox-image2 button {
+    margin-top: 95px;
+  }
+  main .firstBox-image2 h2 {
+    margin-top: 30px;
+  }
+  main .firstBox-image2 p {
+    margin-top: 24px;
+  }
+  main .firstBox-image3 {
+    background-image: url(../images/main-image3-s.png);
+  }
+  main .firstBox .image-fon {
+    width: 300px;
+    height: 240px;
+    padding: 0 30px 0 20px;
+  }
+  main .titleParther {
+    width: 280px;
+    height: 54px;
+    letter-spacing: 0.7px;
+    margin: 36px 0 0 20px;
+  }
+  main .secondBox {
+    width: 320px;
+  }
+  main .secondBox-container {
+    width: 320px;
+    height: 901px;
+    padding: 14px 42px 0 42px;
+    flex-direction: column;
+  }
+  main .secondBox-container-profile {
+    width: 236px;
+    height: 205px;
+  }
+  main .secondBox-container-profile-container {
+    width: 120px;
+    height: 120px;
+  }
+  main .secondBox-container .order1 {
+    flex: 1;
+    order: 1;
+  }
+  main .secondBox-container .order2 {
+    order: 3;
+  }
+  main .secondBox-container .order3 {
+    height: 224px;
+    order: 2;
+  }
+  main .secondBox-container .order4 {
+    order: 4;
+  }
+  main .secondBox-container .image2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+    background-image: url(../images/main-avatar2.png);
+  }
+  main .secondBox-container .image2-icons {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background: #19D4CA;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 8px;
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 4px;
+  }
+  main .secondBox-container .image3 {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+    background-image: url(../images/main-avatar3.png);
+  }
+  main .secondBox-container .image3-icons {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background: #FFA710;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 8px;
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 4px;
+  }
+  main .secondBox-container h2 {
+    width: 236px;
+    height: 18px;
+    margin-top: 19px;
+  }
+  main .secondBox-container p {
+    font-family: "Roboto-Light";
+    font-weight: 0;
+    font-size: 14px;
+    line-height: 14px;
+    color: #444444;
+    width: 236px;
+    height: 57;
+    margin-top: 22px;
+    text-align: center;
+  }
+  main .secondBox-container .p3 {
+    margin-top: 25px;
+  }
+  main .secondBox-container .p4 {
+    margin-top: 24px;
+  }
+  main .secondBox button {
+    margin: 36px 0 0 20px;
+    width: 280px;
+    height: 40px;
+    background-color: none;
+    border-radius: 20px;
+    text-align: center;
+  }
+  main .titleThird {
+    width: 280px;
+    height: 54px;
+    letter-spacing: 0.8px;
+    margin: 35px 0 0 20px;
+  }
+  main .thirdBox {
+    width: 320px;
+    padding-top: 13px;
+  }
+  main .thirdBox-container {
+    width: 320px;
+    padding: 10px 10px 0 10px;
+    flex-direction: column;
+  }
+  main .thirdBox-container-image1 {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday1-s.png);
+  }
+  main .thirdBox-container-image1-fonS {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    padding: 20px 0 0 47px;
+  }
+  main .thirdBox-container-image2 {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday2-s.png);
+  }
+  main .thirdBox-container-image2-fonS {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    padding: 33px 0 0 47px;
+  }
+  main .thirdBox-container-image3 {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday3-s.png);
+  }
+  main .thirdBox-container-image3-fonS {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    padding: 33px 0 0 47px;
+  }
+  main .thirdBox-container-image4 {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday4-s.png);
+  }
+  main .thirdBox-container-image4-fonS {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    padding: 47px 0 0 47px;
+  }
+  main .thirdBox-container-image5 {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday5-s.png);
+  }
+  main .thirdBox-container-image5-fonL {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    padding: 47px 0 0 12px;
+  }
+  main .thirdBox-container-image6 {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday6-s.png);
+  }
+  main .thirdBox-container-image6-fonL {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    padding: 47px 0 0 12px;
+  }
+  main .thirdBox-container-image7 {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-holiday7-s.png);
+  }
+  main .thirdBox-container-image7-fonS {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    padding: 47px 0 0 47px;
+  }
+  main .thirdBox-container .boxS {
+    width: 206px;
+    height: 54;
+  }
+  main .thirdBox-container .boxL {
+    width: 279px;
+    height: 27;
+  }
+  main .thirdBox-container .boxS3 {
+    width: 206px;
+    height: 54;
+  }
+  main .thirdBox-container1 {
+    height: 390px;
+    margin-top: 10px;
+  }
+  main .thirdBox-container2 {
+    height: 260px;
+  }
+  main .thirdBox-container3 {
+    height: 260px;
+  }
+  main .titleSearch {
+    width: 280px;
+    height: 54px;
+    margin: 35px 0 0 20px;
+  }
+  main .lastBox {
+    width: 320px;
+    height: 138px;
+    padding: 14px 20px 0 20px;
+  }
+  main .lastBox h2 {
+    font-family: "Roboto-Light";
+    font-weight: 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: #666666;
+    width: 280px;
+    height: 24;
+    margin-left: 0;
+  }
+  main .lastBox form {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  main .lastBox form .search {
+    width: 280px;
+    height: 40px;
+    padding-left: 15px;
+  }
+  main .lastBox form .searchButton {
+    width: 280px;
+    height: 40px;
+    background-color: #FF4E50;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  footer {
+    width: 320px;
+    height: 226px;
+  }
+  footer nav {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0 20px;
+  }
+  footer nav .colums {
+    width: 280px;
+  }
+  footer nav .colums-footerLogo {
+    margin: 6px auto;
+  }
+  footer nav .colums-p {
+    width: 280px;
+    height: 52px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1px;
+  }
+  footer nav .colums-p-p1 {
+    width: 50px;
+    height: 24px;
+  }
+  footer nav .colums-p-p2 {
+    width: 62px;
+    height: 24px;
+  }
+  footer nav .colums-p-p3 {
+    width: 48px;
+    height: 24px;
+  }
+  footer nav .colums-p-p4 {
+    width: 41px;
+    height: 24px;
+  }
+  footer nav .colums-p-p5 {
+    width: 126px;
+    height: 24px;
+  }
+  footer nav .colums-p-p6 {
+    width: 42px;
+    height: 24px;
+  }
+  footer nav .colums2 {
+    margin: 13px 0 0 0px;
+  }
+  footer nav .colums3 {
+    margin: 6px 0 0 0px;
+    padding-left: 6px;
+  }
+  footer nav .colums4 {
+    width: 280px;
+    margin: 14px 0 0 0px;
+  }
+  footer nav h1 {
+    margin-left: 81px;
+  }
+  footer nav h2 {
+    width: 70px;
+    height: 17;
+    margin: 0 auto;
+  }
+  footer nav h3 {
+    margin-left: 100px;
+  }
+}/*# sourceMappingURL=main.css.map */

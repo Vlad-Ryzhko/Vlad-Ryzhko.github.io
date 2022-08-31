@@ -1,0 +1,54 @@
+@mixin text ($family-text, $weight-text, $size-text, $lineHeight-text, $color-text) {
+    font: {
+        family: $family-text;
+        weight: $weight-text;
+        size: $size-text;
+    }
+
+    line-height: $lineHeight-text;
+    color: $color-text;
+}
+
+@mixin button ($width-button, $height-button, $bc-button, $b-radius-button, $text-align-button) {
+    width: $width-button;
+    height: $height-button;
+    background-color: $bc-button;
+    border-radius: $b-radius-button;
+    text-align: $text-align-button;
+}
+
+@mixin image ($width-image, $height-image, $b-radius-image, $overflow-image, $b-repeat-image, $b-size-image, $b-position-image) {
+    width: $width-image;
+    height: $height-image;
+    border-radius: $b-radius-image;
+    overflow: $overflow-image;
+
+    background: {
+        repeat: $b-repeat-image;
+        size: $b-size-image;
+        position: $b-position-image;
+    }
+}
+
+@mixin image-icons ($width-image-icons, $height-image-icons, $b-radius-image-icons, $b-color-image-icons, $position-image-icons,$bottom-image-icons, $right-image-icons, $padding-image-icons, $o-color-image-icons, $o-style-image-icons, $o-width-image-icons ) {
+    width: $width-image-icons;
+    height: $height-image-icons;
+    border-radius: $b-radius-image-icons;
+    background: $b-color-image-icons;
+    position: $position-image-icons;
+    bottom: $bottom-image-icons;
+    right: $right-image-icons;
+    padding: $padding-image-icons;
+
+    outline: {
+        color: $o-color-image-icons;
+        style: $o-style-image-icons;
+        width: $o-width-image-icons;
+    }
+}
+
+@mixin fonS ($width-fonS, $height-fonS, $b-radius-fonS) {
+    width: $width-fonS;
+    height: $height-fonS;
+    border-radius: $b-radius-fonS;
+}
